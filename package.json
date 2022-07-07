@@ -12,7 +12,7 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "rollup": "rollup -c && npm version patch && npm publish",
+    "rollup": "rollup -c && git checkout -- . && npm version patch && npm publish",
     "test": "jest"
   },
   "repository": {
