@@ -1,1 +1,1 @@
-# DEPRECATED
+# deprecated
